@@ -495,21 +495,8 @@ ORDER BY ca.total_revenue DESC;
 
 ### **Prerequisites**
 - PostgreSQL 12+ or any SQL database system
-- Database client (pgAdmin, DBeaver, or command line)
-- Git (for cloning the repository)
 
-### **Database Setup**
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/music-store-sql-analysis.git
-cd music-store-sql-analysis
 
-# Import the database schema and data
-psql -U your_username -d your_database -f music_store_database.sql
-
-# Run the analysis queries
-psql -U your_username -d your_database -f music_store_analysis.sql
-```
 
 ## 📈 Key Business Insights
 
